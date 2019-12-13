@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="registerationTesting.Login">
+        <methods>
+          <include name="LIN4"/>
+          <include name="open_brow"/>
+        </methods>
+      </class> <!-- registerationTesting.Login -->
+      <class name="articleSubmission.ArticleSubmission">
+        <methods>
+          <include name="LIN10"/>
+          <include name="LIN6"/>
+          <include name="LIN7"/>
+          <include name="LIN8"/>
+          <include name="LIN9"/>
+        </methods>
+      </class> <!-- articleSubmission.ArticleSubmission -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
